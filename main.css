@@ -53,9 +53,8 @@
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    position: absolute; 
-    top: 0; 
-    right: 0;
+    position: absolute;
+    margin-left:83vw;
   }
   
        .hm2:hover {
