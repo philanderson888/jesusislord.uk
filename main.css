@@ -54,7 +54,8 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     position: absolute;
-    margin-left:83vw;
+    margin-left: 86vw;
+    margin-top: -3vw;
   }
   
        .hm2:hover {
