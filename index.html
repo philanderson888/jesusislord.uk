@@ -33,9 +33,32 @@ body  {
     float: left;
     width: 150px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 </style>
 
 <body>
+  
+
     <div class="topnav">
         <div class="dropdown">
             <button class="dropbtn">Other Links 
@@ -49,18 +72,25 @@ body  {
         </div>  
         
         <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
-        <a href="thinking-about-jesus.html"><i class="fas fa-video"></i> Videos</a>
         <a href="shopping.html"><i class="fas fa-shopping-cart"></i> Shop</a>
         <a href="index.html"><i class="fas fa-home"></i> Home</a>
         <img src="assets/images/Untitled 2222.png" class="logo">
       </div>
- 
+
+<br><br><br><br><br><br>
+      <H1 style="font-size:60px";><b><marquee behavior="scroll" direction="right">JESUS IS LORD</marquee></H1></b>
+
+<br>
+<div class="row">
+  <div class="column">
+    <iframe width="920" height="650" src="https://www.youtube.com/embed/nQWFzMvCfLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+  <div class="column">
+    <iframe width="920" height="650" src="https://www.youtube.com/embed/n4XWfwLHeLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+</div>
+
 <br><br>
 
-<h1><u>Jesus Is Lord</h1></u>
-<br><br>
-<h2><u>Poem</u></h2>
-<img src="assets/images/202105 Poem Loving God Every Day.png" width="400px"/>
+<img src="assets/images/202105 Poem Loving God Every Day.png" width="400px"  class="center"/>
 <br><br>
 
 </body>
