@@ -46,7 +46,12 @@ body {
 
 /* The expanding image container */
 .container {
-  position: relative;
+  position:absolute; /* absolute pin! */
+  width: 60%;
+  margin-left: -25px;
+  left: 600px;
+  top: 230px;
+
   display: none;
   float: right;
 }
@@ -68,9 +73,6 @@ body {
   color: white;
   font-size: 35px;
   cursor: pointer;
-}
-.rowmargin   {
- 
 }
 
 .r2 {
@@ -101,8 +103,7 @@ body {
         <div class="container-lg">
             <div class="col">
                 <br>
-                <img src="Untitled 2222.png" class="logo" style="width: 150px;">
-            </div>
+                <button style="background-color: black; border-color: black;"><a href="index.html"><img src="Untitled 2222.png" style="width: 150px;" class="logo"></a></button>            </div>
             <div class="col">
             </div>
             <br>
@@ -122,15 +123,14 @@ body {
             </div>
             </a>
             </div>
-
-
         </div>
     </div>
-
+<button onclick="goBack()">Go Back</button>
       <!-- The four columns -->
       <div class="rowmargin" style="margin-left: 20%; margin-top: 20px;">
       <div class="row2">
-          <img src="Logo.png" class="r2" style="width:10%" onclick="myFunction(this);">
+          <img src="Model Lord of Hosts.png " class="r2" style="width:10%" onclick="myFunction(this);">
+          
         </div>
         <div class="row3">
           <img src="SOS.png" class="r3" style="width:10%" onclick="myFunction(this);">
@@ -140,9 +140,11 @@ body {
         </div>
         <div class="row5">
           <img src="Untitled 2222.png" class="r5" style="width:10%" onclick="myFunction(this);">
+          </div>
         </div>
       </div>
-    </div>
+      
+
       <div class="container">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
         <img id="expandedImg" style="width:60%">
@@ -157,6 +159,11 @@ body {
   expandImg.src = imgs.src;
   imgText.innerHTML = imgs.alt;
   expandImg.parentElement.style.display = "block";
+}
+
+
+function goBack() {
+  window.history.back();
 }
 </script>
 </html>
