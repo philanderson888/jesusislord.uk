@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <link rel="icon" href="assets/images/Logo.png" sizes="16x16" type="image/png">
     <title>Jesus Is Lord | Shop Online</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://shoppy.gg/api/embed.js"></script>
+  </head>
 <style>
 * {
   box-sizing: border-box;
@@ -94,6 +97,34 @@ body {
     border: 7px solid;
     border-color: rgb(129, 126, 126); 
 }
+
+.button3 {border-radius: 8px;}
+
+.button0 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #5c5c5c; 
+  color: white; 
+  width: 80%;
+}
+
+.button2:hover {
+  background-color: #000000;
+  color: white;
+}
+
 </style>
 <body>
     <!-- Heading -->
@@ -103,7 +134,7 @@ body {
         <div class="container-lg">
             <div class="col">
                 <br>
-                <button style="background-color: black; border-color: black;"><a href="index.html"><img src="Untitled 2222.png" style="width: 150px;" class="logo"></a></button>            </div>
+                <button style="background-color: black; border-color: black;"><a href="index.html"><img src="assets/images/Untitled 2222.png" style="width: 150px;" class="logo"></a></button>            </div>
             <div class="col">
             </div>
             <br>
@@ -119,7 +150,17 @@ body {
             <a href="kids.html"><button style="padding: 0; border: none; background: none; color:white"><h5>Kids</h5></button></a>
             </div>
             <div class="col">
-            <a href="acess.html"><button style="padding: 0; border: none; background: none; color:white"><h5>Acessories</h5></button>
+            <a href="acess.html"><button style="padding: 0; border: none; background: none; color:white"><h5>Accessories</h5></button></a>
+              <br><br><br><br>
+              <h4>Lord Of Hosts T-Shirt</h2>
+              <h4><b>£8</b></h4>
+                <h6>Buy Now!
+                   Deliver Fee: <h6><i class="fas fa-box-open"></i> Free Postage <i class="fas fa-box-open"></i></h6>
+                </h6>
+                <hr>
+                  <b>Sizes can be picked In the Order Button</b>
+                <hr>
+                  <button data-shoppy-product="y5oHVL5" class="button0 button2">Order Now</button>
             </div>
             </a>
             </div>
@@ -128,28 +169,19 @@ body {
 <button onclick="goBack()">Go Back</button>
       <!-- The four columns -->
       <div class="rowmargin" style="margin-left: 20%; margin-top: 20px;">
+        <div class="col">
       <div class="row2">
-          <img src="Model Lord of Hosts.png " class="r2" style="width:10%" onclick="myFunction(this);">
-          
+          <img src="assets/images/Model Lord of Hosts.png " class="r2" style="width:10%" onclick="myFunction(this);">
         </div>
-        <div class="row3">
-          <img src="SOS.png" class="r3" style="width:10%" onclick="myFunction(this);">
-        </div>
-        <div class="row4">
-          <img src="Model Lord of Hosts.png" class="r4" style="width:10%" onclick="myFunction(this);">
-        </div>
-        <div class="row5">
-          <img src="Untitled 2222.png" class="r5" style="width:10%" onclick="myFunction(this);">
-          </div>
         </div>
       </div>
-      
+
 
       <div class="container">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
         <img id="expandedImg" style="width:60%">
         <div id="imgtext"></div>
-      </div>        
+      </div>   
 </body>
 
 <script>
