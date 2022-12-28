@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    width: 80%;
+    display: flex;
+}
+
+.gallery {
+    flex-basis: 47%;
+    background: #241e20;
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery img{
+    display: block;  
+    padding-top: 30%;
+    padding-bottom: 20%;
+    max-width: 90%;
+    margin: auto;
+}
+
+.details {
+    flex-basis: 60%;
+    background: #d0eaff;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.item {
+    outline: 0;
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+}
