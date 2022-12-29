@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;    
     box-sizing: border-box;
 }
 
@@ -40,9 +40,25 @@
     padding: 40px;
     padding-left: 60px;
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
 }
 
-
+.details h1{
+    color: #333;
+    font-size: 35px;
+}
+.details h2{
+    color: #555;
+    font-size: 30px;
+    font-weight: 600;
+}
+.details h3{
+    color: #00ac5c;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 
 .item {
     outline: 0;
