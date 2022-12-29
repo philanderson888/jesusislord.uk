@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: white;
+    background: #d0eaff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .gallery {
-    flex-basis: 47%;
+    flex-basis: 40%;
     background: #241e20;
     transform: scale(1.08);
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@
 
 .details {
     flex-basis: 60%;
-    background: #d0eaff;
+    background: white;
     padding: 40px;
     padding-left: 60px;
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
