@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -35,13 +35,13 @@
 }
 
 .details {
-    flex-basis: 60%;
-    background: white;
+    flex-basis: 53%;
+    background: #fff;
     padding: 40px;
     padding-left: 60px;
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
     color: black;
 }
 
@@ -55,9 +55,51 @@
     font-weight: 600;
 }
 .details h3{
-    color: #00ac5c;
+    color: #00d874;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: rgb(41, 104, 41);
+    width: max-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 1px rgb(6, 6, 6);
+}
+
+.details h5{
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: grey; /* old IE */
+    background-color: grey; /* Modern Browsers */
+}
+
+.reviews {
+    color: #f33f3f;
+    font-size: 14px;
+}
+
+.booton {
+    background: #553ff0;
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-top: 50%;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    position: relative;
 }
 
 .item {
