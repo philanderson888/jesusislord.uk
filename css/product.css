@@ -5,6 +5,30 @@
     box-sizing: border-box;
 }
 
+.icon {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: 20px;
+}
+
+.back {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none; 
+    border: none;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.back:hover {
+    color: black;
+    text-decoration: none;
+}
 
 .container {
     width: 100%;
@@ -100,6 +124,13 @@ hr {
     box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
     cursor: pointer;
     position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.booton:focus {
+    outline: none;
 }
 
 .item {
