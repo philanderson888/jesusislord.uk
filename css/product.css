@@ -33,7 +33,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #d0eaff;
+    background: #adafb0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
     background: #fff;
     padding: 40px;
     padding-left: 60px;
-    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 5px 100px 10px rgba(0, 0, 0, 0.1);
     font-size: 15px;
     font-weight: 300;
     color: black;
@@ -140,4 +140,14 @@ hr {
     background: none;
     cursor: pointer;
     display: inline-block;
+}
+
+ .payments { 
+    margin-top: 10%;
+    width: 37%;
+}
+
+ .payment {
+    margin-left: 26%;
+    width: 34%;
 }
