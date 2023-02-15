@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+  } 
+
 .icon {
     float: left;
     position: absolute;
@@ -46,6 +51,7 @@
 
 .gallery {
     flex-basis: 40%;
+    border-radius: 25px;
     background: #241e20;
     transform: scale(1.08);
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
@@ -60,6 +66,7 @@
 
 .details {
     flex-basis: 53%;
+    border-radius: 25px;
     background: #fff;
     padding: 40px;
     padding-left: 60px;
@@ -70,13 +77,13 @@
 }
 
 .details h1{
-    color: #333;
+    color: black;
     font-size: 35px;
 }
 .details h2{
-    color: #555;
-    font-size: 30px;
-    font-weight: 600;
+    color: black;
+    font-size: 27px;
+    font-weight: 100;
 }
 .details h3{
     color: #00d874;
@@ -120,18 +127,99 @@ hr {
     border-radius: 30px;
     border: 0;
     outline: none;
-    margin-top: 50%;
+    margin-top: 10%;
     box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
     cursor: pointer;
     position: relative;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .booton:focus {
     outline: none;
 }
+
+
+
+.booton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .booton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .booton:hover span {
+    padding-right: 25px;
+  }
+  
+  .booton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.booton2 {
+    background: grey;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-top: 3%;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.booton2:focus {
+    outline: none;
+}
+
+.booton2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .booton2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .booton2:hover span {
+    padding-right: 25px;
+  }
+  
+  .booton2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  
 
 .item {
     outline: 0;
@@ -151,3 +239,9 @@ hr {
     margin-left: 26%;
     width: 34%;
 }
+
+
+
+
+
+  
