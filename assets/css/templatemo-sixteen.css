@@ -1077,3 +1077,9 @@ footer .inner-content p a {
 		bottom: 0;
 	}
 }
+
+.colouricon {
+	color: red;
+	margin-top: -8%;
+	margin-bottom: 8%;
+}
