@@ -1080,14 +1080,14 @@ footer .inner-content p a {
 
 
 .productss11hehimg {
-	width: 80%;
+	width: 100%; 
 	margin-top: 140px;
-	margin-left: 90px;
-}
+	margin-bottom: -8px;
+	align-self: center;
+} 
 
 .productss11heh {
 	margin-top: 140px;
-	
 }
 
 .booton {
@@ -1190,10 +1190,50 @@ footer .inner-content p a {
     opacity: 1;
     right: 0;
   }
-  
+
 .colouricon {
 	color: red;
 	margin-top: -8%;
 	margin-bottom: 8%;
 }
 
+.payments { 
+    margin-top: 7%;
+    width: 20%;
+	transition: .2s;
+}
+
+ .payment {
+    margin-left: 8%;
+	margin-top: 7%;
+    width: 20%;
+	transition: .2s;
+}
+
+.payment:hover {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2); 
+ 	-webkit-transform: scale(1.2);
+}
+
+.payments:hover {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2); 
+ 	-webkit-transform: scale(1.2);
+}
+
+.details h1{
+    color: black;
+    font-size: 35px;
+}
+.details h3{
+    color: black;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.details h5{
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+}
