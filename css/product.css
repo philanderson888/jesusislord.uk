@@ -45,12 +45,12 @@
 }
 
 .product {
-    width: 65%;
+    width: 75%;
     display: flex;
 }
 
 .gallery {
-    flex-basis: 40%;
+    flex-basis: 45%;
     border-radius: 25px;
     background: #241e20;
     transform: scale(1.08);

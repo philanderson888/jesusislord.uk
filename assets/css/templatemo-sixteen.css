@@ -1077,3 +1077,116 @@ footer .inner-content p a {
 		bottom: 0;
 	}
 }
+
+
+.productss11hehimg {
+	width: 80%;
+	margin-top: 140px;
+	margin-left: 90px;
+}
+
+.productss11heh {
+	margin-top: 140px;
+	
+}
+
+.booton {
+    background: #553ff0;
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-top: 10%;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.booton:focus {
+    outline: none;
+}
+
+
+
+.booton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .booton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .booton:hover span {
+    padding-right: 25px;
+  }
+  
+  .booton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.booton2 {
+    background: grey;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-top: 3%;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.booton2:focus {
+    outline: none;
+}
+
+.booton2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .booton2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .booton2:hover span {
+    padding-right: 25px;
+  }
+  
+  .booton2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
