@@ -1247,3 +1247,11 @@ footer .inner-content p a {
     font-size: 15px;
     font-weight: 400;
 }
+
+.smallimageproduct {
+	width: 70px;
+	align-self: center;
+	background-color: rgb(188, 188, 188);
+	border: 2px dotted grey;
+	border-radius: 10px;
+}
