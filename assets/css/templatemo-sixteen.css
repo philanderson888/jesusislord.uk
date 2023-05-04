@@ -1109,7 +1109,7 @@ footer .inner-content p a {
     border-radius: 30px;
     border: 0;
     outline: none;
-    margin-top: 10%;
+    margin-top: 3%;
     box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
     cursor: pointer;
     position: relative;
@@ -1201,6 +1201,55 @@ footer .inner-content p a {
     right: 0;
   }
 
+  .booton3 {
+    background: #553ff0;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-top: 10%;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.booton3:focus {
+    outline: none;
+}
+
+.booton3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .booton3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .booton3:hover span {
+    padding-right: 25px;
+  }
+  
+  .booton3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 .colouricon {
 	color: red;
 	margin-top: -8%;
@@ -1255,3 +1304,32 @@ footer .inner-content p a {
 	border: 2px dotted grey;
 	border-radius: 10px;
 }
+
+.review {
+	margin-top: 30px;
+}
+
+.reviewbutton {
+	width: 75%;
+	background-color: rgb(215, 215, 215);
+	border: none;
+	color: #f33f3f;
+	text-align: left;
+	padding: 9px 20px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 15px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.reviewbutton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxreview {
+	background-color: lightgrey;
+	width: 300px;
+	padding: 10px 20px;
+	margin: 15px;
+  }
